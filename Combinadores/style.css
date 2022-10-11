@@ -1,0 +1,19 @@
+h2 + p {
+    color: red;
+    /* el mas + significa que se aplique la regla a todo p que este cerca de un h2,junto o proximo, adjacent sibling*/
+}
+h1 {
+    color:blue;
+}
+
+h2 ~ p {
+    color: red;
+}
+
+div > p {
+    color: red;
+}
+
+div p {
+    color:blueviolet;
+}

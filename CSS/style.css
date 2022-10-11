@@ -1,0 +1,17 @@
+
+        /* por elemento en este caso es una etiqueta */
+        p {
+            color: blue;
+            font-size: 50px;
+        }
+
+        /* clase */
+        .parrafo {
+            color: red;
+        }
+
+        /* id  */
+        #texto {
+            color: yellow;
+            font-size: 24px;
+        }

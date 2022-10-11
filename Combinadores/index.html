@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Adjacent Sibling</h1>
+            <h2>Soy un h2</h2>
+            <p>Soy un p</p>
+            <h2>Soy un h2</h2>
+            <h3>Soy un h3</h3>
+            <p>Soy un p</p>
+            <h2>Soy un h2</h2>
+            <p>Soy un p</p>
+        </div>
+       
+    <div>
+        <h1>General Sibling</h1>
+        <h2>Soy un h2</h2>
+        <p>Soy un p</p>
+        <h2>Soy un h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy un p</p>
+    </div>
+
+    <div>
+        <!-- //solo se aplica directamente a los hijos directos del padre. -->
+        <h1>Child</h1> 
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <section>
+            <div>
+                <p>Soy un texto</p>
+            </div>
+        </section>
+        <p>Soy un texto</p>
+    </div>
+        <div>
+            <h1>Descendiente</h1>
+            <!-- son todas las etiquetas dentro de -->
+            <article>
+                <p>Soy un texto</p>
+            </article>
+            <article>
+                <p>Soy un texto</p>
+            </article>
+            <section>
+                <div>
+                    <p>Soy un texto</p>
+                </div>
+            </section>
+            <p>Soy un texto</p>
+        </div>
+    </div>
+</body>
+</html>
