@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+}
+.encabezado {
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    border-radius: 20px;
+    position:relative;
+    top: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.text {
+    height: 200px;
+    width: 350px;
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid black;
+}
